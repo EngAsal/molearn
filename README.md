@@ -47,9 +47,9 @@ To run the GUI:
 
 #### Anaconda installation from conda-forge ####
 
-The most recent release can be obtained through Anaconda:
+The most recent release can be obtained through Anaconda ("Please ensure to specify the software version, or version 1.0 will be installed by default."):
 
-`conda install molearn -c conda-forge` or the much faster `mamba install -c conda-forge molearn`
+`conda install molearn == 2.0.3 -c conda-forge` or the much faster `mamba install -c conda-forge molearn == 2.0.3`
 
 We advise the installation is carried out in a new environment.
 
